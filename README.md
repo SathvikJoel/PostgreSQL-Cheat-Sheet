@@ -23,7 +23,7 @@ A database is a collection of data organized in a way that makes it easy to acce
 ### Getting Things Started
 
   * The postgresql package will by default create a user called postgres
-  * 
+  
   * Switch to the postgres user by `sudo -iu postgres`
 > sudo -iu <username> logs you in as <username>, without having to know <username>'s password.
 
@@ -45,3 +45,41 @@ A database is a collection of data organized in a way that makes it easy to acce
 | `sudo -iu postgres` | Change to the postgres user |
 | `psql -d databasename` | Start the database shell |
 | `\q` | Exit the database shell |
+
+
+### Commands
+
+
+| Command | Description |
+| ----------- | ----------- |
+| `help` | Gives a small help guide |
+| `\?` | Gives a big help guide |
+| `\l` | Lists all databases |
+| `CREATE DATABASE testname;` | Create a database by the name of testname |
+
+
+### Connec to a Database
+l -h l
+`psql --help` gives a list of options
+
+* Method 1
+`psql -h hostname -p port -U username` is a sample method to connect to a database, add other options accordingly
+
+* Method 2
+go to psql and type `\c databaseaname` to connect to a database, the same command can be used to change the database
+
+### A very Dangerous Command
+
+To delete a database,
+
+```sql
+DROP DATABASE test;
+```
+
+> MAKE SURE YOU REALLY WANT TO DO IT! 
+
+
+
+
+
+
