@@ -10,31 +10,32 @@ A database is a collection of data organized in a way that makes it easy to acce
 
 ### How data is stored
 
-    * Stores data in tables
+* Stores data in tables
 
-    * Columns 
+* Columns 
 
-    * Rows
+* Rows
 
 ### Relational Database 
 
-    * A database that has relationships between tables
+  * A database that has relationships between tables
 
 ### Getting Things Started
 
-    * The postgresql package will by default create a user called postgres
-    * Switch to the postgres user by `sudo -iu postgres`
+  * The postgresql package will by default create a user called postgres
+  * 
+  * Switch to the postgres user by `sudo -iu postgres`
 > sudo -iu <username> logs you in as <username>, without having to know <username>'s password.
 
-    * [Look at the Initial cofiguration section to create a database cluster](https://wiki.archlinux.org/title/PostgreSQL)
-    * exit out of the postgres user by `exit`
-    * start the postgresql.service using `systemctl start postgresql`
-    * type `psql`
-    * type `\q` to exit
+  * [Look at the Initial cofiguration section to create a database cluster](https://wiki.archlinux.org/title/PostgreSQL)
+  * exit out of the postgres user by `exit`
+  * start the postgresql.service using `systemctl start postgresql`
+  * type `psql`
+  * type `\q` to exit
 
-    * psql — PostgreSQL interactive terminal
+* psql — PostgreSQL interactive terminal
 
-    * [Look at the Familiarize with PostgreSQL section to understand how to access database shell](https://wiki.archlinux.org/title/PostgreSQL)
+* [Look at the Familiarize with PostgreSQL section to understand how to access database shell](https://wiki.archlinux.org/title/PostgreSQL)
 
 
 ### Next Time
